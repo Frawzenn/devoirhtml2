@@ -1,6 +1,391 @@
-
-
-
-
-
-
+body {
+  background-color: #C1F7D5;
+}
+body .contNavBar {
+  display: flex;
+  background-color: #FFFFfF;
+  min-height: 128px;
+}
+body .contNavBar img {
+  height: 63px;
+  width: 160px;
+  margin: 34px 0 31px 160px;
+}
+body .contNavBar .contMenu {
+  display: flex;
+  margin-left: 224px;
+  align-items: center;
+  flex-direction: row;
+}
+body .contNavBar .contMenu .respMenu {
+  display: flex;
+  flex-direction: row;
+}
+body .contNavBar .contMenu .menu2 {
+  margin: 55px 0 53px 129px ;
+}
+body .contNavBar .contMenu .menu3 {
+  margin: 55px 0 53px 114px ;
+}
+body .contNavBar .contMenu a {
+  text-decoration: none;
+  color: #354463;
+  font-weight: lighter;
+}
+body .contNavBar .contMenu button {
+  background-color: #C1F7D5;
+  border: none;
+  height: 48px;
+  width: 160px;
+  color: #354463;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 44px 0px 44px 72px;
+}
+body header {
+  background-image: url(img/backgroundHeader2.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header .fondVert {
+  background-color: #C1F7D5;
+  position: absolute;
+  z-index: 0;
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+}
+body header .contHeader {
+  height: 672px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+body header .contHeader img {
+  height: 224px;
+  width: 296px;
+  margin: 137px 0 0 135px ;
+}
+body header .contHeader .contTextHeader {
+  color: #354463;
+  background-color: #FFFFfF;
+  width: 544px;
+  height: 416px;
+  margin: 128px 0 0 150px;
+}
+body header .contHeader .contTextHeader .contTheIssue {
+  height: 40px;
+  width: 160px;
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFfF;
+  font-size: 14px;
+  translate: 64px -16px;
+}
+body header .contHeader .contTextHeader h1 {
+  margin: 36px 64px 0px 64px;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 56px;
+}
+body header .contHeader .contTextHeader a {
+  margin: 18px 0px 0px 64px;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: lighter;
+}
+body .contTakeAction .contTitreTakeAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .contTakeAction .contTitreTakeAction .titreTakeAction {
+  height: 40px;
+  width: 160px;
+  background-color: #354463;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFfF;
+  font-size: 14px;
+  translate: 0px -22px;
+}
+body .contTakeAction .contTextTakeAction {
+  display: flex;
+  margin: 35px 160px 78px 160px;
+}
+body .contTakeAction .contTextTakeAction h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #354463;
+  margin-bottom: 8px;
+}
+body .contTakeAction .contTextTakeAction p {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #354463;
+}
+body .contTakeAction .contTextTakeAction .contText2 {
+  margin-left: 56px;
+}
+body .contTakeAction .contTextTakeAction .contText3 {
+  margin-left: 56px;
+}
+body .contTakeAction .contTextTakeAction .contText4 {
+  margin-left: 56px;
+}
+body .contWhatWeDo {
+  background-color: #354463;
+  padding: 88px 158px 147px 160px;
+}
+body .contWhatWeDo .titreWhatWeDo {
+  height: 40px;
+  width: 160px;
+  background-color: #FFFFfF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #354463;
+  font-size: 14px;
+}
+body .contWhatWeDo h2 {
+  margin-top: 40px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #FFFFfF;
+}
+body .contWhatWeDo .contArticleWhatWeDo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 105px;
+}
+body .contWhatWeDo .contArticleWhatWeDo h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #354463;
+  margin: 29px 32px 0 32px;
+}
+body .contWhatWeDo .contArticleWhatWeDo p {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #354463;
+  margin: 13px 32px 27px 32px;
+  line-height: 24px;
+}
+body .contWhatWeDo .contArticleWhatWeDo button {
+  margin: 0 32px 32px 32px;
+  background-color: #C1F7D5;
+  border: none;
+  height: 48px;
+  width: 160px;
+  color: #354463;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article1 {
+  background-color: #FFFFfF;
+  width: 320px;
+  margin: 0 10px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article1 img {
+  translate: 32px -32px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article2 {
+  background-color: #FFFFfF;
+  margin: 0 64px;
+  width: 320px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article2 img {
+  translate: 32px -32px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article3 {
+  background-color: #FFFFfF;
+  width: 320px;
+}
+body .contWhatWeDo .contArticleWhatWeDo .article3 img {
+  translate: 32px -32px;
+}
+@media screen and (max-width: 600px) {
+  body .contNavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .contNavBar img {
+    margin: 10px 0;
+  }
+  body .contNavBar .contMenu {
+    flex-direction: column;
+    margin: 0;
+  }
+  body .contNavBar .contMenu .respMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  body .contNavBar .contMenu .menu1 {
+    margin: 55px 5vw 53px 5vw;
+  }
+  body .contNavBar .contMenu .menu2 {
+    margin: 55px 5vw 53px 5vw;
+  }
+  body .contNavBar .contMenu .menu3 {
+    margin: 55px 5vw 53px 5vw ;
+  }
+  body .contNavBar .contMenu a {
+    text-decoration: none;
+    color: #354463;
+    font-weight: lighter;
+  }
+  body .contNavBar .contMenu button {
+    background-color: #C1F7D5;
+    border: none;
+    height: 48px;
+    width: 160px;
+    color: #354463;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3vh 0;
+  }
+  body header {
+    background-image: url(img/backgroundHeader2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body header .fondVert {
+    background-color: #C1F7D5;
+    position: absolute;
+    z-index: 0;
+    opacity: 50%;
+    height: 100%;
+    width: 100%;
+  }
+  body header .contHeader {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  body header .contHeader img {
+    height: 30vw;
+    width: 39.6vw;
+    margin: 5vh 0 ;
+  }
+  body header .contHeader .contTextHeader {
+    color: #354463;
+    background-color: #FFFFfF;
+    margin: 5vh 5vw;
+    width: fit-content;
+    height: fit-content;
+    padding: 3vw;
+  }
+  body header .contHeader .contTextHeader .contTheIssue {
+    height: 40px;
+    width: 160px;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFfF;
+    font-size: 14px;
+    translate: 34px -36px;
+  }
+  body header .contHeader .contTextHeader h1 {
+    margin: 0;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 20px;
+    width: 100%;
+  }
+  body header .contHeader .contTextHeader a {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  body .contTakeAction .contTitreTakeAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .contTakeAction .contTitreTakeAction .titreTakeAction {
+    height: 40px;
+    width: 160px;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFfF;
+    font-size: 14px;
+    translate: 0px -22px;
+  }
+  body .contTakeAction .contTextTakeAction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 3vw 3vw 3vw;
+  }
+  body .contTakeAction .contTextTakeAction h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    color: #354463;
+    margin-bottom: 8px;
+    margin-top: 3vh;
+  }
+  body .contTakeAction .contTextTakeAction p {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+    color: #354463;
+  }
+  body .contTakeAction .contTextTakeAction .contText2 {
+    margin-left: 0;
+  }
+  body .contTakeAction .contTextTakeAction .contText3 {
+    margin-left: 0;
+  }
+  body .contTakeAction .contTextTakeAction .contText4 {
+    margin-left: 0;
+  }
+  body .contWhatWeDo {
+    padding: 3vw;
+  }
+  body .contWhatWeDo h2 {
+    margin-top: 40px;
+    font-size: 7vw;
+    font-weight: bold;
+    color: #FFFFfF;
+  }
+  body .contWhatWeDo .contArticleWhatWeDo {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  body .contWhatWeDo .contArticleWhatWeDo .article1 {
+    margin: 5vh 0;
+  }
+  body .contWhatWeDo .contArticleWhatWeDo .article1 img {
+    translate: 32px -32px;
+  }
+}
